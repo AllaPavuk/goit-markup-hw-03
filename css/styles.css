@@ -3,7 +3,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
-    color: #434455
+    color: #434455;
 }
 
 h3 {
@@ -73,19 +73,20 @@ img {
 /* header */
 
 
-.header-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 12px;
+.header {
     border-bottom: 1px solid #E7E9FC;
-    display: flex;
-    align-items: center;
+}
 
+.header-container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
 }
 
 .logo {
     display: flex;
-    padding: 24px 0;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -161,16 +162,15 @@ img {
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    max-width: 1158px;
-    width: 100%;
-    padding: 188px 0;
-    margin: 0 auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;       
+  align-items: center;           
+  justify-content: center;    
+  width: 100%;                  
+  max-width: 1152px;            
+  padding: 188px 0;              
+  margin: 0 auto;                
+  text-align: center;            
 }
 
 .hero-titel {
