@@ -54,7 +54,7 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 0 15px;
 }
 
 
@@ -79,14 +79,10 @@ img {
 
 .header-container {
     display: flex;
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     align-items: center;
 }
 
 .logo {
-    display: flex;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -148,6 +144,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
 }
 
 .address-item-link:hover,
@@ -168,10 +166,7 @@ img {
   display: flex;
   flex-direction: column;       
   align-items: center;           
-  justify-content: center;    
-  width: 100%;                  
-  max-width: 1152px;                       
-  margin: 0 auto;                
+  justify-content: center;                  
   text-align: center;            
 }
 
@@ -242,12 +237,10 @@ img {
 }
 
 .info-list-item {
-    margin: auto;
     width: calc((100% - 72px) / 4);
 }
 
 .info-text {
-    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -262,10 +255,6 @@ img {
     padding: 120px 0;
 }
 
-.contacts .container {
-    padding: 32px 0;
-}
-
 .contacts-tittle {
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -273,8 +262,6 @@ img {
 
 .contacts-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 24px;
 }
 
@@ -286,7 +273,6 @@ img {
 }
 
 .contact-name-container {
-    width: 232px;
     padding: 32px 0
 }
 
@@ -313,12 +299,6 @@ img {
     padding: 120px 0;
 }
 
-.portfolio .container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .portfolio-herotittel {
     margin-bottom: 72px;
     font-weight: 700;
@@ -342,7 +322,6 @@ img {
 }
 
 .portfolio-carts {
-    width: 360px;
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
@@ -372,11 +351,6 @@ img {
     padding: 100px 0;
 }
 
-.footer-container {
-    width: 1158px;
-    margin: 0 auto;
-}
-
 .footer-link {
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -395,7 +369,7 @@ img {
 }
 
 .footer-text {
-    width: 264px;
+    max-width: 264px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
